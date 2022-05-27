@@ -85,6 +85,121 @@
     }
 }
 
+/* Shop Seite */
+.shoe-section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+}
+
+.information-section {
+    order: 2;
+    width: 40%;
+    margin-top: 10%;
+}
+
+.information-section h1 {
+    font-weight: 800;
+}
+
+.information-section p {
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.information-section p span {
+    color: #808080;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.rating {
+    margin-top: 5%;
+    display: flex;
+}
+
+.rating img {
+    width: 25px;
+    margin-right: 1%;
+}
+
+.img-section {
+    width: 55%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+.img-section img {
+    width: 90%;
+}
+
+.image-row {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 0;
+}
+
+.image-row img {
+    width: 150px;
+}
+
+.color-section {
+    margin-top: 7%;
+}
+
+.color-section p {
+    font-size: 15px;
+}
+
+.select-section {
+    margin-top: 7%;
+    flex-direction: row;
+}
+
+select {
+    width: 330px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    background-color: #ebebeb;
+    border: none;
+}
+
+.warenkorb {
+    margin-top: 1%;
+    height: 40px;
+    width: 330px;
+    border: 1px solid #808080;
+    transition: .5s ease;
+}
+
+.warenkorb:hover {
+    background-color: #c4c4c4;
+}
+
+.description {
+    margin-top: 10%;
+    width: 400px;
+}
+
+.description h3 {
+    font-size: 18px;
+}
+
+.description p {
+    font-size: 14px;
+}
+
+figure.zoom img {
+    transition: opacity 0.5s;
+    display: block;
+    width: 100%;
+  }
+  
+  figure.zoom img:hover {
+    opacity: 0;
+  }
+
 @media (max-width: 414px) {
     .logo {
         padding-top: 15px;
