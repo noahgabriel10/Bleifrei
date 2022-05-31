@@ -63,27 +63,63 @@
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-@media (max-width: 768px) {
-    .header {
-        justify-content: space-between;
-    }
-
-    .logo {
-        margin-left: 40px;
-        padding-top: 15px;
-    }
-    
-    .nav-links {
-        display: none;
-    }
-    
-    .toggle-button {
-        display: block;
-        transition: .6s;
-        margin-top: 18px;
-        margin-right: 40px;
-    }
+/* Startseite */
+.commercial-container {
+    width: 100%;
+    margin-bottom: 100px;
 }
+
+.commercial-img {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.commercial-text {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.game-login-container {
+    width: 50%;
+    margin: 25px 10% 100px 25%;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.game-text {
+    margin: 10px 0;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input {
+    margin: 7.5px 0;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #292c2f;
+    padding-left: 10px;
+}
+
+.input-container button {
+    height: 30px;
+    margin-top: 7.5px;
+    border-radius: 5px;
+    border: 1px solid #292c2f;
+    background-color: #292c2f;
+    color: #ebebeb;
+}
+
 
 /* Shop Seite */
 .shoe-section {
@@ -200,6 +236,119 @@ figure.zoom img {
     opacity: 0;
   }
 
+  .Footer {
+    margin-top: 100px;
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .Footer-Unten {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .Footer-Info {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .Footer-Infos {
+      font-size: 15px;
+      color: #ffffff;
+      margin: 0 0 10px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-left: 40px;
+        padding-top: 15px;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    .toggle-button {
+        display: block;
+        transition: .6s;
+        margin-top: 18px;
+        margin-right: 40px;
+    }
+
+    /* Startseite */   
+    .img1 {
+        object-position: 37% 0;
+    }
+
+    .img2 {
+        object-position: 80% 0;
+    }
+    
+    .commercial-text {
+        margin: 100px auto;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .game-login-container {
+        width: 60%;
+        margin: 50px 20% 100px 20%;
+    }
+    
+    hr {
+        margin: 10px 0;
+    }
+    
+    .game-text {
+        margin: 10px 0;
+    }
+    
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-container input {
+        margin: 7.5px 0;
+        height: 35px;
+        border-radius: 5px;
+        border: 1px solid #292c2f;
+        padding-left: 10px;
+    }
+    
+    .input-container button {
+        height: 35px;
+        margin-top: 7.5px;
+        border-radius: 5px;
+        border: 1px solid #292c2f;
+        background-color: #292c2f;
+        color: #ebebeb;
+    }
+}
+
 @media (max-width: 414px) {
     .logo {
         padding-top: 15px;
@@ -213,44 +362,67 @@ figure.zoom img {
     .toggle-button {
         margin-top: 15px;
     }
+
+    /* Startseite */
+
+    .commercial-container {
+        width: 100%;
+    }
+    
+    .commercial-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .img1 {
+        object-position: 35% 0;
+    }
+
+    .img2 {
+        object-position: 72% 0;
+    }
+    
+    .commercial-text {
+        width: 80%;
+        margin: 100px auto;
+        text-align: center;
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .game-login-container {
+        width: 80%;
+        margin: 50px 10% 100px 10%;
+    }
+    
+    hr {
+        margin: 10px 0;
+    }
+    
+    .game-text {
+        margin: 10px 0;
+    }
+    
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-container input {
+        margin: 7.5px 0;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #292c2f;
+        padding-left: 10px;
+    }
+    
+    .input-container button {
+        height: 30px;
+        margin-top: 7.5px;
+        border-radius: 5px;
+        border: 1px solid #292c2f;
+        background-color: #292c2f;
+        color: #ebebeb;
+    }
 }
-
-.Footer {
-  background-color: #292c2f;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  font: normal 16px sans-serif;
-  padding: 45px 50px;
-}
-
-.Footer-Unten {
-  color: #8f9296;
-  font-size: 14px;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-
-
-.Footer-Info {
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-  margin: 0 0 10px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.Footer-Infos {
-    font-size: 15px;
-    color: #ffffff;
-    margin: 0 0 10px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
