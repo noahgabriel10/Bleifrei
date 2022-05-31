@@ -347,6 +347,87 @@ figure.zoom img {
         background-color: #292c2f;
         color: #ebebeb;
     }
+
+    /* Schuh Seite */
+    .shoe-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .information-section {
+        order: 2;
+        width: 80%;
+        margin: 50px 10% 50px 10%;
+    }
+
+    .information-section h1 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .information-section p {
+        font-size: 15px;
+    }
+
+    .information-section p span {
+        color: #808080;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .rating {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rating img {
+        width: 15px;
+        margin-right: 0.5%;
+    }
+
+    .color-section {
+        margin: 20px 0 10px 0;
+    }
+
+    .select-section {
+        margin: 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select-section select {
+        margin-bottom: 10px;
+        height: 30px;
+    }
+
+    .select-section button {
+        height: 30px;
+    }
+
+    .img-section figure img {
+        width: 100%;
+    }
+
+    .image-row {
+        order: 1;
+    }
+
+    .image-row img {
+        width: 25%;
+        margin-left: 4.5%;
+    }
+
+    figure.zoom img {
+        background-image: none;
+        transition: opacity 0.5s;
+        display: block;
+        width: 100%;
+      }
+      
+      figure.zoom img:hover {
+        opacity: 1;
+      }
 }
 
 @media (max-width: 414px) {
@@ -425,4 +506,85 @@ figure.zoom img {
         background-color: #292c2f;
         color: #ebebeb;
     }
+
+    /* Schuh Seite */
+    .shoe-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .information-section {
+        order: 2;
+        width: 80%;
+        margin: 50px 10% 50px 10%;
+    }
+
+    .information-section h1 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .information-section p {
+        font-size: 15px;
+    }
+
+    .information-section p span {
+        color: #808080;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .rating {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rating img {
+        width: 15px;
+        margin-right: 0.5%;
+    }
+
+    .color-section {
+        margin: 20px 0 10px 0;
+    }
+
+    .select-section {
+        margin: 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select-section select {
+        margin-bottom: 10px;
+        height: 30px;
+    }
+
+    .select-section button {
+        height: 30px;
+    }
+
+    .img-section figure img {
+        width: 100%;
+    }
+
+    .image-row {
+        order: 1;
+    }
+
+    .image-row img {
+        width: 25%;
+        margin-left: 4.5%;
+    }
+
+    figure.zoom img {
+        background-image: none;
+        transition: opacity 0.5s;
+        display: block;
+        width: 100%;
+      }
+      
+      figure.zoom img:hover {
+        opacity: 1;
+      }
 }
