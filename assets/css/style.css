@@ -120,6 +120,10 @@ hr {
     color: #ebebeb;
 }
 
+.input-container button:disabled {
+    background-color: #808080;
+}
+
 
 /* Shop Seite */
 .shoe-section {
