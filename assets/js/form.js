@@ -16,6 +16,14 @@ email.addEventListener("keyup", (event) => {
     validate()
 })
 
+vorname.addEventListener("keyup", (event) => {
+    validate()
+})
+
+nachname.addEventListener("keyup", (event) => {
+    validate()
+})
+
 
 submit.addEventListener("click", async (event) => {
     event.preventDefault()
