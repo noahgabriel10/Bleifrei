@@ -21,7 +21,7 @@ body {
   width: 75px;
   top: 225px;
   position: relative;
-  background-image: url("https://github.com/noahgabriel10/Bleifrei/blob/main/assets/js/Figur.png");
+  background-image: url("https://github.com/kriscfoster/chrome-dino-game/blob/master/dino.png?raw=true");
   background-size: cover;
 }
 
@@ -35,7 +35,7 @@ body {
   position: relative;
   top: 175px;
   left: 550px;
-  background-image: url("https://github.com/noahgabriel10/Bleifrei/blob/main/assets/js/kleiderstander.png");
+  background-image: url("https://github.com/kriscfoster/chrome-dino-game/blob/master/rock.png?raw=true");
   background-size: cover;
 }
 
@@ -50,6 +50,53 @@ body {
 
   100% {
     left: -50px;
+  }
+}
+#goodie {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 60px;
+  left: 550px;
+  background-image: url("https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png");
+  background-size: cover;
+}
+
+.goodie-animation {
+  animation: goodie1 3.33s infinite;
+}
+
+@keyframes goodie1 {
+  0% {
+    left: 550px;
+  }
+
+  100% {
+    left: -50px;
+  }
+}
+
+@keyframes goodie2 {
+  0% {
+    left: 550px;
+    top: 100px;
+  }
+
+  100% {
+    left: -50px;
+    top: 20px;
+  }
+}
+
+@keyframes goodie3 {
+  0% {
+    left: 550px;
+    top: 100px;
+  }
+
+  100% {
+    left: -50px;
+    top: 0px;
   }
 }
 
@@ -81,7 +128,7 @@ body {
   position: absolute;
   width: 600px;
   height: 300px;
-  background-image: url("https://github.com/noahgabriel10/Bleifrei/blob/main/assets/js/Background.png");
+  background-image: url("https://github.com/kriscfoster/chrome-dino-game/blob/master/background.jpg?raw=true");
   background-size: cover;
 }
 
